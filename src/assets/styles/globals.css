@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main {
+    @apply mb-24
+}
+
+div, a, p {
+    font-size: 20px;
+}
+
